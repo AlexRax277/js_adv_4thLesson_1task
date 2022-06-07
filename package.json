@@ -1,26 +1,32 @@
 {
-  "name": "ajs",
+  "name": "1sttask",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "jest"
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
-  "author": "coursar",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRax277/js_adv_4thLesson_1task.git"
+  },
+  "author": "AlexRax277",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRax277/js_adv_4thLesson_1task/issues"
+  },
+  "homepage": "https://github.com/AlexRax277/js_adv_4thLesson_1task#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.4.0",
-    "babel-loader": "^8.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "jest": "^28.1.0"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^28.1.1"
   },
   "dependencies": {
-    "core-js": "^3.6.5"
+    "core-js": "^3.22.8"
   }
 }
